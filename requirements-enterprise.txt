@@ -1,0 +1,105 @@
+# ===========================
+# ENTERPRISE REQUIREMENTS
+# Production-grade dependencies
+# ===========================
+
+# Core Framework
+PyQt6>=6.6.0
+
+# Browser Automation
+selenium>=4.23.0
+playwright>=1.46.0
+
+# Image Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Web Framework & API
+Flask>=3.0.0
+flask-cors>=4.0.0
+flask-limiter>=3.5.0
+gunicorn>=21.2.0  # Production WSGI server
+waitress>=2.1.0
+
+# Database & ORM
+SQLAlchemy>=2.0.25
+alembic>=1.13.1  # Database migrations
+psycopg2-binary>=2.9.9  # PostgreSQL driver
+asyncpg>=0.29.0  # Async PostgreSQL
+
+# Async Support
+aiohttp>=3.9.1
+aiofiles>=23.2.1
+asyncio>=3.4.3
+
+# Data Validation
+pydantic>=2.5.3
+pydantic-settings>=2.1.0
+email-validator>=2.1.0
+
+# Configuration & Secrets
+python-dotenv>=1.0.0
+python-decouple>=3.8
+
+# Caching
+redis>=5.0.1
+hiredis>=2.3.2  # Fast redis protocol parser
+
+# Error Handling & Resilience
+tenacity>=8.2.3  # Retry logic
+circuit-breaker>=1.0.0
+
+# Logging & Monitoring
+structlog>=24.1.0  # Structured logging
+python-json-logger>=2.0.7
+colorlog>=6.8.0
+
+# Metrics & Observability
+prometheus-client>=0.19.0
+opentelemetry-api>=1.22.0
+opentelemetry-sdk>=1.22.0
+opentelemetry-instrumentation-flask>=0.43b0
+
+# Security
+cryptography>=42.0.0
+bcrypt>=4.1.2
+PyJWT>=2.8.0
+python-jose[cryptography]>=3.3.0
+
+# HTTP & Requests
+requests>=2.31.0
+httpx>=0.26.0  # Modern async HTTP client
+urllib3>=2.1.0
+
+# Task Queue (Optional - for scaling)
+celery>=5.3.4
+kombu>=5.3.4
+
+# Testing
+pytest>=7.4.4
+pytest-asyncio>=0.23.3
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+pytest-xdist>=3.5.0  # Parallel testing
+faker>=22.0.0  # Test data generation
+factory-boy>=3.3.0  # Test fixtures
+
+# Code Quality
+black>=23.12.1
+flake8>=7.0.0
+mypy>=1.8.0
+pylint>=3.0.3
+isort>=5.13.2
+bandit>=1.7.6  # Security linting
+
+# Documentation
+sphinx>=7.2.6
+sphinx-rtd-theme>=2.0.0
+
+# Utilities
+python-dateutil>=2.8.2
+pytz>=2023.3
+click>=8.1.7  # CLI tool
+rich>=13.7.0  # Beautiful terminal output
+tabulate>=0.9.0
